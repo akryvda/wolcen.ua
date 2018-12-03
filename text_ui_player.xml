@@ -1,0 +1,1907 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>akryvda</LastAuthor>
+  <Created>2018-12-03T21:07:30Z</Created>
+  <LastSaved>2018-12-03T21:07:08Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7920</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="40&#160;% - Accent1">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#BDD7EE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="Neutre">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#993300"/>
+   <Interior ss:Color="#FFEB9C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64" ss:Name="Satisfaisant">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m572170960">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m572170980">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s78" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s81" ss:Parent="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s83" ss:Parent="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s87" ss:Parent="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s89" ss:Parent="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C2:R1C3"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="374" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s65" ss:DefaultColumnWidth="60">
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="225.75"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="767.25"/>
+   <Column ss:StyleID="s65" ss:Width="363.75"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="160.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s66">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">KEY</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ORIGINAL TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">TRANSLATED TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell ss:MergeAcross="2" ss:StyleID="m572170960"><Data ss:Type="String">CHARACTER CREATION</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Character Creation Interface</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_character_creation</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Character creation</Data></Cell>
+    <Cell><Data ss:Type="String">Створення персонажа</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_body</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Body</Data></Cell>
+    <Cell><Data ss:Type="String">Тіло</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_face</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Face</Data></Cell>
+    <Cell><Data ss:Type="String">Обличчя</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_skin_color</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Skin color</Data></Cell>
+    <Cell><Data ss:Type="String">Колір шкіри</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_body_type</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Body type</Data></Cell>
+    <Cell><Data ss:Type="String">Статура</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_muscular</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Muscular</Data></Cell>
+    <Cell><Data ss:Type="String">М'язиста</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_skinny</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Puny</Data></Cell>
+    <Cell><Data ss:Type="String">Худюща</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_fat</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Fat</Data></Cell>
+    <Cell><Data ss:Type="String">Повна</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_thin</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Thin</Data></Cell>
+    <Cell><Data ss:Type="String">Тонка</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_hair</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Hair</Data></Cell>
+    <Cell><Data ss:Type="String">Волосся</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_haircut</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Haircut</Data></Cell>
+    <Cell><Data ss:Type="String">Зачіска</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_hair_color</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Hair color</Data></Cell>
+    <Cell><Data ss:Type="String">Колір волосся</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_eyes</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Eyes</Data></Cell>
+    <Cell><Data ss:Type="String">Очі</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_left_eye</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Left eye</Data></Cell>
+    <Cell><Data ss:Type="String">Ліве око</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_right_eye</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Right eye</Data></Cell>
+    <Cell><Data ss:Type="String">Праве око</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_beard</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard</Data></Cell>
+    <Cell><Data ss:Type="String">Борода</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_beard_style</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard style</Data></Cell>
+    <Cell><Data ss:Type="String">Стиль бороди</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_beard_color</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard color</Data></Cell>
+    <Cell><Data ss:Type="String">Колір бороди</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_saturation</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Saturation</Data></Cell>
+    <Cell><Data ss:Type="String">Насиченість</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_color</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Color</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Колір</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_match_colors</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Match colors</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Поєднати кольори</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_breast</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Chest</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Груди</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_popup_title_nicknameTaken</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Name unavailable</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Ім'я недоступне</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_popup_title_deleteCharacter</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Delete Character</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Видалити персонажа</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_popup_content_nicknameTaken</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Sorry, the name %1 is already taken. Please chose another name.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Пробачте, ім'я  %1 вже вибрано. Будьте ласкаві вибрати інше.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_popup_content_deleteCharacter</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Are you sure you want to delete %1? All your items and progression will be lost.</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Ви направду хочете видалити %1? Усі Ваші предмети та прогрес зникнуть.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_popup_title_maxcharactercount</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your Characters List is full</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Список Ваших персонажів переповнено</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_popup_content_maxcharactercount</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">You cannot have more than %1 active characters.</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">У Вас не може бути більш ніж %1 активних персонажів.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Eye Customization</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_Eye_1</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Eye 1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Око 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_Eye_2</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Eye 2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Око 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_Eye_3</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Eye 3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Око 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_Eye_4</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Eye 4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Око 4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_Eye_5</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Eye 5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Око 5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_Eye_6</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Eye 6</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Око 6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_Eye_7</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Eye 7</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Око 7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_Eye_8</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Eye 8</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Око 8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_Eye_9</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Eye 9</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Око 9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_Eye_10</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Eye 10</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Око 10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s66">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ui_Eye_11</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Eye 11</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Око 11</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Hair Customization</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Haircut_1</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Haircut 1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Зачіска 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Haircut_2</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Haircut 2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Зачіска 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Haircut_3</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Haircut 3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Зачіска 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Haircut_4</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Haircut 4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Зачіска 4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Haircut_5</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Haircut 5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Зачіска 5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Haircut_6</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Haircut 6</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Зачіска 6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Haircut_7</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Haircut 7</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Зачіска 7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Haircut_8</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Haircut 8</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Зачіска 8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Haircut_9</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Haircut 9</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Зачіска 9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Haircut_10</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Haircut 10</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Зачіска 10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Beard Customization</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Beard_1</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard 1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Борода 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Beard_2</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard 2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Борода 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Beard_3</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard 3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Борода 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Beard_4</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard 4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Борода 4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Beard_5</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard 5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Борода 5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Beard_6</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard 6</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Борода 6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Beard_7</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard 7</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Борода 7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Beard_8</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard 8</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Борода 8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Beard_9</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard 9</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Борода 9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Beard_10</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Beard 10</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Борода 10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="2" ss:StyleID="m572170980"><Data ss:Type="String">CHARACTER SHEET</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Info Fields</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_remainingpoints</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Remaining Attribute Points</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Залишилось одиниць атрибутів</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_experience</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Experience</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Досвід</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_health</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Health</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Здоров'я</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_healthregen</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Health Regeneration</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Регенерація життя</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ferocity</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Ferocity</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Лють</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_agility</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Agility</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Жвавість</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_toughness</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Toughness</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Міцність</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_willpower</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Willpower</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Сила волі</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_defense</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Defense</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Захист</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_defenseability</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Defensive Ability</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Захисна здатність</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_defenseregen</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Defense Regeneration</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Реґенерація захисту</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_weapondamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Weapon Damage</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Шкода від зброї</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_allattackspeed</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Attack Speed modifier</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Мод. швидкості атаки</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dps</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Damage rate</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Частота пошкоджень</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_movespeed</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Movement Speed</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Швидкість руху</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_spelldamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Damage modifier (Spells)</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Мод. ушкоджень (Чари)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_meleedamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Damage modifier (Melee)</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Мод. ушкоджень (Рукопаш)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_rangeddamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Damage modifier (Ranged)</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Мод. ушкоджень (Стріли)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dotchance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Ailment Chance modifier</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Мод. шансу недуги</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_castingspeed</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Speed modifier (Spells)</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Мод. швидкості (Чари)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_currentattackspeed</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Attack Speed</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Швидкість атаки</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_attackspeed</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Speed modifier (Melee)</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Мод. швидкості (Рукопашний бій)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_attackspeedranged</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Speed modifier (Ranged)</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Мод. швидкості (Стріли)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_resourcepool</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Resource Pool</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Пул Ресурсів</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_umbraregeneration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Umbra Regeneration</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Реґенерація умбри</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_rageconservation</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Rage Conservation</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Консервація люті</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ragegeneration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Rage Generation</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Ґенерація люті</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_rageonhit</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Rage Generation when hit</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Ґенерація люті коли вдарено</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_damage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Damage</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Шкода</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_damagemod</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Damage modifier</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Мод. шкоди</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_physical</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Physical</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Фізика</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_fire</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Fire</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Вогонь</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_frost</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Frost</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Холод</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_lightning</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Lightning</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Електрика</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_umbra</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Umbra</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Умбра</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_sacred</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Sacred</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Священна</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_shadow</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Shadow</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Тіньова</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_bleed</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Rend</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Кровоточива</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_poison</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Toxic</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Отруйна</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_allcriticalchance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Critical Chance modifier</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_allcriticaldamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Critical Damage modifier</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_criticaldamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Critical Damage (Weapons)</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_criticalchance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Critical Chance (Weapons)</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_spellcriticalchance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Critical Chance (Spells)</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_spellcriticaldamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Critical Damage (Spells)</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_cooldown</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Cooldown modifier</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ragecost</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Rage Cost modifier</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_umbracost</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Umbra Cost modifier</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dashdamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Dash Damage</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dashrange</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Dash Range</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dashrage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Dash Rage Generation</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dashcooldown</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Dash Cooldown</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dashcriticalchance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Dash Critical Chance</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dashcriticaldamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Dash Critical Damage</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_thorndamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Thorns Damage</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_thorndamagemod</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Thorns Damage modifier</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_protectionpiercing</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Protection Piercing (points)</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_protectionpiercingpercent</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Protection Piercing (%)</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_protectionshattering</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Protection Shattering (points)</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_protectionshatteringpercent</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Protection Shattering (%)</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_resistances</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Resistances</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stamina</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Stamina</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_staminaregeneration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Stamina Regeneration</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dodgechance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Dodge Chance</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_blockchance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Block Chance</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_blockefficiency</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Block Efficiency</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_blockangle</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Block Angle</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_damagereduction</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Damage Reduction</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stunresistance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Stun Resistance</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_knockbackresistance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Knock-back Resistance</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_blownawayresistance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Knock-down Resistance</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_burnchance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Burn Chance</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_freezechance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Freeze Chance</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_freezeduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Freeze Duration</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_freezedurationmod</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Freeze Duration modifier</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_shockchance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Shock Chance</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dotinduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Status Ailments Resilience</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stunchance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Stun Chance</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stunduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Stun Duration</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stundurationmod</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Stun Duration modifier</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stuninduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Stun Resilience</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_misc</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Miscellaneous</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_corpsechance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Corpse Chance modifier</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_globesradius</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Globes Picking Radius</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_goldradius</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Gold Picking Radius</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_goldfind</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Gold Find</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_magicfind</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Magic Find</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_potioncooldown</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Potions Cooldown modifier</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_potionrefill</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Potions Refill-Time Modifier</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_potionhealing</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Potions Healing-Factor modifier</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_spellresistance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Spells Resistance</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_allres</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Damage Resistance</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_burndamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Burn Damage</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_burntick</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Burn Rate</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_burnduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Burn Duration</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_burndurationmod</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Burn Duration modifier</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_shockdamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Shock Damage</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_shockduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Shock Duration</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_shockdurationmod</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Shock Duration modifier</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_cursechance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Curse Chance</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_cursetick</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Curse Rate</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_curseefficiency</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Curse Efficiency</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_curseduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Curse Duration</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_cursedurationmod</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Curse Duration modifier</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_curseradius</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Curse Radius</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_cursepropagation</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Curse Propagation</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_bleedchance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Bleed Chance</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_bleedtick</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Bleed Rate</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_bleeddamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Bleed Damage</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_bleedduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Bleed Duration</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_bleeddurationmod</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Bleed Duration modifier</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_weaknesschance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Weakness Chance</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_weaknessefficiency</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Weakness Efficiency</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_weaknessduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Weakness Duration</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_weaknessdurationmod</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Weakness Duration modifier</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_poisonchance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Poison Chance</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_poisontick</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Poison Rate</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_poisondamage</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Poison Damage</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_poisonduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Poison Duration</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_poisondurationmod</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Poison Duration modifier</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_frailtychance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Frailty Chance</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_frailtyefficiency</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Frailty Efficiency</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_frailtyduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Frailty Duration</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_frailtydurationmod</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Frailty Duration modifier</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_fearduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Fear Duration modifier</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_frenzyduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Frenzy Duration modifier</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_snareduration</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Snare Duration modifier</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_maxailments</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Max Ailments stacks</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_presence</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Presence</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_offensivestats</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Combat</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_defensivestats</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Survivability</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailments</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Status Ailments</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_resource</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Resource</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_overkillchance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Overkill chance</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dash</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Dash</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_potions</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Potions</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_level</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Level</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_show_adPanel</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Show Details</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_hide_adPanel</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Hide Details</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentstun</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Stun</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentburn</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Burn</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentfreeze</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Freeze</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentshock</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Shock</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentfrailty</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Frailty</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentweakness</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Weakness</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentcurse</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Curse</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentbleed</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Bleed</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentpoison</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Poison</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_damagetype</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Damage types</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_resistance</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Resistance types</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_spells</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Spells</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stage_0</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Weak</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stage_1</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stage_2</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Good</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stage_3</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Great</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stage_4</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Excellent</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stage_5</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Exceptional</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Tooltips</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_remainingpoints_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your remaining Attributes Points. You earn them when gaining levels and can spend them between Ferocity, Toughness, Dexterity and Willpower.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_experience_tooltip</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Your current experience at this level. You can gain experience by killing monsters and achieving Quests. Reaching the experience cap will increase your Character level.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_health_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your maximum Health Points. You lose them when enemies hit you, and die if they reach 0. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_healthregen_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The amount of Health Points you restore each second. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ferocity_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Ferocity. Affects your Melee Damage, Critical Damage, Defensive Ability and Attack Speed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_agility_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Agility. Affects your Ranged Damage, Critical Chance, Dodge Chance and Movement Speed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_toughness_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Toughness. Affects your Maximum Health, Defense Regeneration, Stamina Regeneration and all your basic Resistances.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_willpower_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Willpower. Affects your Spell Damage, Health Regeneration, Status Ailments Chance and your Spells Resistance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_defense_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Defense capacity which shields the part of your Health pool that is within your Defense range. By default, Defense only protects from Physical attacks and is usually obtained through Armor parts and Shields.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_defenseability_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Defensive Ability. Represents the Damage reduction applied on incoming Physical attacks which affect the part of your Health that is within your Defense range.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_defenseregen_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The amount of Defense points you restore per second when your Defense is shattered by an external source (expressed in percentage of total Defense per second). Also increases the duration of temporary Defense boosts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_weapondamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The average Damage you deal in one strike with your equipped Weapons.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_allattackspeed_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier to your Attack Speed with all weapons and spells.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dps_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your average Damage Rate with equipped weapons, given their Damage and Attack Speed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_movespeed_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Movement Speed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_spelldamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The Damage modifier applied to your attacks with Magic Spells.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_meleedamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The Damage modifier applied to your attacks with Melee Weapons.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_rangeddamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The Damage modifier applied to your attacks with Ranged Weapons.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dotchance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier to your chance of inflicting any Status Ailment.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_castingspeed_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global Speed modifier to your attacks with Magic Spells.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_currentattackspeed_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your current Attack Speed with equipped Weapons.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_attackspeed_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global Speed modifier to your attacks with Melee Weapons.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_attackspeedranged_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global Speed modifier to your attacks with Ranged Weapons.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_resourcepool_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your maximum available Resource, in both Umbra and Rage. Umbra and Rage are used to cast Spells.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_umbraregeneration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">You natural Rage loss over time, representing your Umbra Regeneration.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_rageconservation_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The delay before Umbra Regeneration restarts after gaining Rage. Rage Conservation is not triggered by spending Umbra or Rage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ragegeneration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The amount of Rage Points generated each time you hit an enemy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_rageonhit_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The amount of Rage Points generated each time you are hit by an enemy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_damage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your basic Damage with equipped Weapons.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_damagemod_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier applied to all Damage sources you inflict.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_physical_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Physical Damage is the default Damage type for Weapons and have a natural chance to inflict Stun to their target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_fire_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Fire Damage have a natural chance to inflict Burn over time to their target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_frost_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Frost Damage have a natural chance to Freeze their target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_lightning_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Lightning Damage have a natural chance to Shock their target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_umbra_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Umbral Damage have a natural chance to inflict Frailty to their target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_sacred_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Sacred Damage have a natural chance to inflict Weakness to their target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_shadow_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Shadow Damage have a natural chance to Curse their target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_bleed_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rend Damage have a natural chance to inflict Bleed over time to their target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_poison_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Toxic Damage have a natural chance to inflict Poison over time to their target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_allcriticalchance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier to your Critical Chance with all weapons and spells.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_allcriticaldamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier to your Critical Damage with all weapons and spells.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_criticaldamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your Critical Damage multiplier with Weapons. Represents the extra amount of Damage dealt by Critical Strikes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_criticalchance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your Critical Chance with Weapons. Critical Strikes deal extra Damage and have a higher chance to inflict Status Ailments.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_spellcriticalchance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your Critical Chance with Magic Spells. Critical Strikes deal extra Damage and have a higher chance to inflict Status Ailments.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_spellcriticaldamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your Critical Damage multiplier with Magic Spells. Represents the extra amount of Damage dealt by Critical Strikes.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_cooldown_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier to your Spells Cooldown. A lower Cooldown means that you will be able to cast Spells at a higher rate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ragecost_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier to the Rage cost of all your Spells. Lower costs are not necessary a positive thing depending on your playstyle, since they lower the amount of the opposite Resource generated.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_umbracost_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier to the Umbra cost of all your Spells. Lower costs are not necessary a positive thing depending on your playstyle, since they lower the amount of the opposite Resource generated.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dashdamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The average Damage dealt by your Dash. The Dash uses the Damage of your equipped Weapons as its base value.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dashrange_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The maximum Range of your Dash. A higher Range means that you will be able to engage enemies from longer distances.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dashrage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The amount of Rage Points generated for each enemy hit by your Dash.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dashcooldown_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The total Cooldown of your Dash.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dashcriticalchance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The total Critical Chance of your Dash.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dashcriticaldamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The total Critical Damage multiplier of your Dash.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_thorndamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Thorns Damage. Thorns are Physical Damage inflicted to enemies when they hit you and which pierce through their Protections.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_thorndamagemod_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global Damage modifier applied to your Thorns Damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_protectionpiercing_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The amount of Damage (points) which will ignore an enemy's Protection of a specific type. Piercing Attacks allow you to inflict partial Damage to the enemy's Health even if its Protections should normally prevent it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_protectionpiercingpercent_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The amount of Damage (percent) which will ignore an enemy's Protection of a specific type. Piercing Attacks allow you to inflict partial Damage to the enemy's Health even if its Protections should normally prevent it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_protectionshattering_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The amount of extra Damage inflicted to you enemy's Protection of a specific type. This amount of points will be inflicted to the Protections bars of an enemy regardless of the base Damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_protectionshatteringpercent_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The amount of extra Damage inflicted to you enemy's Protection of a specific type. It will inflict to the Protections bars of an enemy an amount of Damage points equal to a percentage of its maximum size.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_resistances_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your passive Resistances to a specific type of Damage. A negative Resistance means that you take more Damage of that type than usually.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stamina_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The maximum amount of Stamina points available. Stamina points allow you to cast Movement-related Spells, such as the Dodgeroll.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_staminaregeneration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The total delay for restoring one Stamina point that has been spent. A low value means that you'll recover your Stamina points quickly.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dodgechance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Dodge Chance against all incoming attacks. Dodging attacks will completely ignore their effects, regardless of their type.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_blockchance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Block Chance. Blocking an attack will reduce its effects based on your total Defense and will give you a temporary Defense boost. By default, you can only block Physical Attacks within your Block Angle. Block Chance is usually gained by equipping a Shield.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_blockefficiency_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Block Efficiency, representing the value of the temporary Defense boost obtained when blocking an attack. This bonus will quickly deplete with time.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_blockangle_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Block Angle. Attacks coming from the front and within this angle may be blocked depending on your total Block Chance, whereas Attacks from behind will never be blocked.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_damagereduction_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Damage Reduction, which prevents a part of all incoming Damage, regardless of their source.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stunresistance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Stun Resistance. May give you a chance to completely ignore an incoming Stun.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_burnchance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Chance to inflict Burn with Fire Damage of any source.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_freezechance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Chance to Freeze with Frost Damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_freezeduration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The default duration of the Freeze you inflict if not specified by the source.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_freezedurationmod_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global duration modifier applied to Freezing.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_shockchance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Chance to Shock with Lightning Damage. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stunchance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Chance to Stun with Physical Damage. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stunduration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The default duration of the Stun you inflict if not specified by the source.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_stundurationmod_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global duration modifier applied to Stunning.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_misc_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Miscellaneous gameplay values which do not fall into one of the categories above.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_corpsechance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier applied to your Chance of generating Corpses when killing enemies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_globesradius_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The total radius for automatically picking Globes around you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_goldradius_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The total radius for automatically picking Gold around you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_goldfind_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Gold Find modifier. Increases the amount of looted Gold.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_magicfind_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Magic Find modifier. Increases the probability of looting Magic Items.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_potioncooldown_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier to your Potions Cooldown. A lower Cooldown means that you will be able to use Potions and Phials at a higher rate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_potionrefill_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier to your Potions Refill-time. A lower Refill-time means that your Potions and Phials will recover their charges faster.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_potionhealing_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier to your Potions Healing-capacity. A higher Healing-capacity means that your Healing Potions will be more efficient.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_spellresistance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier to your Resistance against Magic Spells. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_allres_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global modifier to your Resistance against main Damage types.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_burndamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The Fire Damage inflicted each time a Burn ticks. The first displayed value corresponds to one Burning stack whereas the second one represents the Damage for the maximum number of stacks you can put on one target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_burntick_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The ticking delay used by a Burning stack for inflicting its Damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_burnduration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The default duration of the Burn you inflict if not specified by the source.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_burndurationmod_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global duration modifier applied to Burning.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_shockdamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">The total Lightning Damage inflicted by a Shock.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_shockduration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The default duration of the Shock you inflict if not specified by the source.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_shockdurationmod_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global duration modifier applied to Shocking.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_cursechance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Chance to inflict Curse with Shadow Damage of any source. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_cursetick_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The ticking delay used by a Cursing stack for propagating Status Ailments.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_curseefficiency_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The Chance to propagate a Status Ailment stack each time a Curse ticks. The first displayed value corresponds to one Cursing stack whereas the second one represents the Chance for the maximum number of stacks you can put on one target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_curseduration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The default duration of the Curse you inflict if not specified by the source.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_cursedurationmod_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global duration modifier applied to Cursing.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_curseradius_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The total Propagation Radius of the Curse you inflicts. Enemies within this range of the Cursed source are eligible targets for the propagation of Status Ailments.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_cursepropagation_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The maximum amount of Status Ailments stacks that can be propagated by the Curse each time it ticks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_bleedchance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Chance to inflict Bleed with Rend Damage of any source.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_bleedtick_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The ticking delay used by a Bleeding stack for inflicting its Damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_bleeddamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The Rend Damage inflicted each time a Bleed ticks. The first displayed value corresponds to one Bleeding stack whereas the second one represents the Damage for the maximum number of stacks you can put on one target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_bleedduration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The default duration of the Bleed you inflict if not specified by the source.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_bleeddurationmod_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global duration modifier applied to Bleeding.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_weaknesschance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Chance to inflict Weakness with Sacred Damage of any source.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_weaknessefficiency_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global Effiency of the Weakness you inflict, scaling up its different effects. The first displayed value corresponds to one Weakness stack whereas the second one represents the Effiency for the maximum number of stacks you can put on one target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_weaknessduration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The default duration of the Weakness you inflict if not specified by the source.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_weaknessdurationmod_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global duration modifier applied to Weakening.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_poisonchance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Chance to inflict Poison with Toxic Damage of any source. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_poisontick_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The ticking delay used by a Poisoning stack for inflicting its Damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_poisondamage_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The Toxic Damage inflicted each time a Poison ticks. The first displayed value corresponds to one Poisoning stack whereas the second one represents the Damage for the maximum number of stacks you can put on one target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_poisonduration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The default duration of the Poison you inflict if not specified by the source.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_poisondurationmod_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global duration modifier applied to Poisoning.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_frailtychance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your total Chance to inflict Frailty with Umbra Damage of any source. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_frailtyefficiency_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global Effiency of the Frailty you inflict, scaling up its different effects. The first displayed value corresponds to one Frailty stack whereas the second one represents the Effiency for the maximum number of stacks you can put on one target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_frailtyduration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The default duration of the Frailty you inflict if not specified by the source. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_frailtydurationmod_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global duration modifier applied to Frailty. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_fearduration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global duration modifier applied to Fear.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_frenzyduration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global duration modifier applied to Frenzy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_snareduration_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The global duration modifier applied to Snare and Root.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_maxailments_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">The maximum number of stacks you can pile up on a unique target for each distinct Status Ailment. Most Status Ailments gain in power the more stacks you put on the same target, and they all have their independant stacks counter.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_presence_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your current Presence level. Affects how enemies spot and target you in combat. A normal value for Presence is 100%: below, you become harder to target and see. At 0%, you are invisible. At values higher than 100%, you are easier to spot and track.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_offensivestats_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your basic Offensive capacities, representing your ability to attack and perform Damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_defensivestats_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your basic Defensive capacities, representing your ability to reduce incoming Damage and avoid attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailments_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your Status Ailments capacities, representing your ability to inflict extra Damage and conditions over time.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_resource_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your Resource capacities, representing how you generate Resources of all kinds: Rage, Umbra and Stamina.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_overkillchance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your default Chance to perform an Overkill when killing an enemy with a specific Damage type. Overkills will give you a temporary Attack Speed boost, and their Chance increase the higher the Damage which induced the Death was.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_dash_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your Dash capacities, representing your ability to use the Dash effectively. The Dash is not available with all Weapons types and can be deactivated by clicking the Dash button on your HUD.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_potions_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your Potions capacities, representing your ability to use Potions and Phials effectively.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_level_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your current Character level. All data from your Character Sheet which depend on a target level are displayed at your current level, but may vary against enemies from levels different from yours.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentstun_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your ability to use the Stun Ailment effectively. Stunning prevents targets from acting or moving for a short period of time.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentburn_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your ability to use the Burn Ailment effectively. Burning deals Fire Damage over time and can be stacked up to your maximum Ailments stacks number. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentfreeze_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your ability to use the Freeze Ailment effectively.  Freezing prevents targets from acting or moving, and usually lasts longer than Stun but is environment-dependent: it can be interrupted by a Fire Damage or extended by the proximity of water. When unfreezing, a target will count as wet for a short period of time.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentshock_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your ability to use the Shock Ailment effectively. Shocking inflicts Lightning Damage to all enemies in a small area around your target and have a chance to Stun them. Unlike other Status Ailments, the Shock Damage is direct and not spread over time.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentfrailty_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your ability to use the Frailty Ailment effectively. Frailty reduces all the Damage dealt by the weakened target, its Stamina Regeneration and the efficiency of all the Protection Shattering it inflicts, making it less dangerous in combat. Frailty can be stacked up to your maximum Ailments stacks number. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentweakness_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your ability to use the Weakness Ailment effectively. Weakness reduces all the Resistances of the target and damages its Protections over time while preventing them to regenerate, making it easier to kill. Weakness can be stacked up to your maximum Ailments stacks number. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentcurse_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your ability to use the Curse Ailment effectively. Curse may propagate the target's Status Ailments to its nearby allies (expected the Curse itself). Curse can be stacked up to your maximum Ailments stacks number. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentbleed_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your ability to use the Bleed Ailment effectively. Bleeding deals Rend Damage over time and can be stacked up to your maximum Ailments stacks number. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_ailmentpoison_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your ability to use the Poison Ailment effectively. Poisoning deals Toxic Damage over time and can be stacked up to your maximum Ailments stacks number. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_damagetype_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your basic efficiency with main Damage types. Each Damage type can inflict its own Status Ailment type. A Damage can be comprised of several types, in which case it inherits from several independant Ailments Chance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_resistance_tooltip</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Your basic Resistances to main Damage types. A positive Resistance will negate part of all the Damage you will take from that type, depending on the Damage value and the source level.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_cs_spells_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Spells Damage is a special category representing Magic Spells sources (Spells which are not Weapon-based) and Staves attacks. It is complementary to your other Damage types and stacks with them in a case of a Spell which deal several types of Damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_cs_ferocity_bar_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your current Ferocity amount. The gauge represents your advancement on that attribute regarding the expected value at your level. If this attribute is labelled as &quot;Weak&quot; or &quot;Average&quot;, then you should consider investing in it to improve your efficiency in combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_cs_toughness_bar_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your current Toughness amount. The gauge represents your advancement on that attribute regarding the expected value at your level. If this attribute is labelled as &quot;Weak&quot; or &quot;Average&quot;, then you should consider investing in it to improve your efficiency in combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_cs_agility_bar_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your current Agility amount. The gauge represents your advancement on that attribute regarding the expected value at your level. If this attribute is labelled as &quot;Weak&quot; or &quot;Average&quot;, then you should consider investing in it to improve your efficiency in combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_cs_willpower_bar_tooltip</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Your current Willpower amount. The gauge represents your advancement on that attribute regarding the expected value at your level. If this attribute is labelled as &quot;Weak&quot; or &quot;Average&quot;, then you should consider investing in it to improve your efficiency in combat.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.51181102362204722"
+     x:Data="&amp;LTime restriction sample script"/>
+    <Footer x:Margin="0.51181102362204722" x:Data="Page &amp;P"/>
+    <PageMargins x:Bottom="0.98425196850393704" x:Left="0" x:Right="0"
+     x:Top="0.98425196850393704"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>70</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>60</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>84</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
